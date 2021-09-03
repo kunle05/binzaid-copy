@@ -55,22 +55,22 @@ export default function Footer() {
                     <div className="social-links px-3">
                         <div>
                             <Link href="/">
-                                <a>
+                                <a id="mail-icon">
                                     <FontAwesomeIcon icon="envelope" /> 
                                 </a>
                             </Link>
                             <Link href="/">
-                                <a>
+                                <a id="facebook-icon">
                                     <FontAwesomeIcon icon={['fab', 'facebook']} /> 
                                 </a>
                             </Link>
                             <Link href="/">
-                                <a>
+                                <a id="twitter-icon">
                                     <FontAwesomeIcon icon={['fab', 'twitter']} /> 
                                 </a>
                             </Link>
                             <Link href="/">
-                                <a>
+                                <a id="instagram-icon">
                                     <FontAwesomeIcon icon={['fab', 'instagram']} /> 
                                 </a>
                             </Link>

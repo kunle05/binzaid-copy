@@ -5,16 +5,17 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem, Container } from 'reacts
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const GlobalNav = styled.header`
-    color: var(--offWhite);
+    color: white;
     .nav-item {
         padding: 0 1.5rem;
         a:hover {
-            color: var(--white);
+            color: var(--offWhite);
             transition: color 0.5s;
         }
     }
     .navbar-toggler {
-        color: black;
+        color: #1a1b1d;
+        border: 0;
     }
     .navbar-nav {
         position: absolute;
@@ -32,7 +33,7 @@ const GlobalNav = styled.header`
     }
     @media (max-width: 820px) {
         .navbar-collapse {
-            color: black;
+            color: #1a1b1d;
             margin: 0 !important;
         }
         .navbar-nav {
@@ -56,7 +57,6 @@ const GlobalNav = styled.header`
 export const Logo = styled.h2`
     font-size: 2.5rem;
     color: var(--white);
-    background: black;
     text-transform: uppercase;
     padding: 1rem;
     margin: 0;

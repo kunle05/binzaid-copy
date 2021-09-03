@@ -41,8 +41,27 @@ const StyledFooter = styled.footer`
         color: var(--black);
     }
     a:hover, svg:hover {
-        color: var(--blue);
         text-decoration: underline;
+    }
+    #mail-icon:hover {
+        svg {
+            color: #b7a415;
+        }
+    }
+    #facebook-icon:hover {
+        svg {
+            color: #3b5999;
+        }
+    }
+    #twitter-icon:hover {
+        svg {
+            color: #1da1f2;
+        }
+    }
+    #instagram-icon:hover {
+        svg {
+            color: #e02549;
+        }
     }
     .social-links a:last-child {
         svg {
